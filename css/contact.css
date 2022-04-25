@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+body {
+    background-color: #EDEDED;
+
+}
+
+form {
+    text-align: center;
+    
+}
+input {
+    width: 400px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    border-bottom: rgb(0, 0, 0) solid 3px;
+    padding-bottom: 30px;
+    background-color: transparent;
+}
+input::placeholder {
+    color: black;
+}
+textarea {
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    border-bottom: rgb(5, 5, 5) solid 3px;
+    max-width: 400px;
+    max-height: 150px;
+    min-width: 400px;
+    min-height: 150px;
+    background-color: transparent;
+    color: #DF5B5B;
+
+}
+textarea::placeholder {
+    color: black;
+}
+button {
+    width: 150px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: #DF5B5B solid 3px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-color: #DF5B5B;
+}
+.contactH1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    width: 125px;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactImg {
+    width: 300px;
+}
+.questionmark {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    color: white;
+}
+
+/* Question Mark */
+.questionMarkAlert {
+    width: 50%;
+    height: 25vh;
+    z-index: 10;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    background-color: rgb(20, 20, 20);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #EDEDED;
+    border: #DF5B5B solid 2px;
+    box-shadow: #646464 5px 4px 4px;
+    
+}
+.questionMarkAlertContainer {
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.432);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+.okayPrompt {
+    color: black;
+}

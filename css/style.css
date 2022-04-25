@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #EDEDED;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactBtn {
+    font-size: 20px;
+    color: #DF5B5B ;
+    background-color: transparent;
+    border: #DF5B5B solid 3px;
+    border-radius: 6px;
+    padding: 8px;
+    width: 125px;
+    cursor: pointer;
+}
+.logo {
+    width: 125px;
+}
+.contactBtn:hover {
+    background-color: #DF5B5B;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
